@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&display=swap');
+
+body{
+    background-color: rgb(58, 80, 80);
+}
+header{   
+    color: aliceblue;
+    text-align: center;
+    padding: 15px;
+}
+section{
+    background-color: white;
+    width: 500px;
+    height: 700px;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.295)
+}
+footer{
+    color: white;
+    text-align: center;
+    font: italic 15pt Georgia;
+}
+input#calcularB{
+    font: bold 10pt Georgia;
+}
+div#res{
+    text-align: center;
+}
+div{
+    color: black;
+    text-align: center;
+    font: normal 15pt Georgia;
+    padding: 10px;
+}

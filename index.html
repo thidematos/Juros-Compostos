@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de juros compostos</title>
+    <link rel="stylesheet" href="calcJuros.css">
+</head>
+<body>
+    <header><h1>Calculadora de juros compostos</h1></header>
+
+    <section>
+        <div><p>Insira o valor inicial (R$):</p>
+            <input type="number" name="txtV" id="txtV">
+        </div>
+        <div><p>Insira a taxa de juros (%):</p>
+            <input type="number" name="txtJ" id="txtJ">
+        </div>
+        <div><p>Número de meses:</p>
+            <input type="number" name="txtM" id="txtM">
+            <p>
+                <input type="button" value="Calcular!" onclick="calcular()" id="calcularB">
+            </p>
+        </div>
+        <div id="res">
+            <select name="resJus" id="resJus" size="10">
+                <option id="op1">Aguardando a inserção das variáveis...</option>
+            </select>              
+        </div>
+    <script src="calcJurosJs.js"></script>
+    </section>
+    <footer><p>&copy;Hiva</p></footer>
+    
+</body>
+</html>
